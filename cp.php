@@ -13,7 +13,7 @@ class Prefix_Element_Test extends \Bricks\Element {
 
   // Return localised element label
   public function get_label() {
-    return esc_html__( 'Test element', 'bricks' );
+    return esc_html__( 'Test element2', 'bricks' );
   }
 
   // Set builder control groups

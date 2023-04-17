@@ -32,7 +32,7 @@ add_action( 'init', function() {
 
 add_action( 'init', function() {
   $element_files = [
-    __DIR__ . '/element-test-copia.php',
+    __DIR__ . '/cp.php',
   ];
 
   foreach ( $element_files as $file ) {
