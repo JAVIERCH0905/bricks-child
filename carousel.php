@@ -1,12 +1,12 @@
 <?php
-namespace Bricks;
+
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-class Element_Carousel extends Element {
+class Element_Carousel extends \Bricks\Element {
 	public $category     = 'media';
 	public $name         = 'carousel';
-	public $icon         = 'ti-layout-slider-alt';
+	public $icon         = 'fa-solid fa-faucet';
 	public $css_selector = '.swiper-slide';
 	public $scripts      = [ 'bricksSwiper' ];
 	public $draggable    = false;
