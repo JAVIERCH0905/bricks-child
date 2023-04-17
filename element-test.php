@@ -7,7 +7,7 @@ class Prefix_Element_Test extends \Bricks\Element {
   // Element properties
   public $category     = 'general'; // Use predefined element category 'general'
   public $name         = 'prefix-test'; // Make sure to prefix your elements
-  public $icon         = 'fas fa-anchor'; // Themify icon font class
+  public $icon         = 'fa-brands fa-searchengin'; // Themify icon font class
   public $css_selector = '.prefix-test-wrapper'; // Default CSS selector
   public $scripts      = ['prefixElementTest']; // Script(s) run when element is rendered on frontend or updated in builder
 
